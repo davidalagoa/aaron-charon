@@ -1,8 +1,27 @@
 @font-face {
-    font-family: HelveticaNowDisplay;
-    src: url(fonts\HelveticaNowDisplayBlk.otf);
+    font-family: 'Montserrat', sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
 }
 
+
+}
 body {
-    color: #1d1d1d;
+    margin: 0;
+    background-color: #ffffff;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    margin: 24px 0;
+    ;
+}
+nav {
+    float: right;
+}
+a {
+    font-family: 'Montserrat';
+    font-weight: 700;
 }
