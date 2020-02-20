@@ -1,0 +1,60 @@
+@import url(/css/fonts.css);
+
+/* CSS Variables */
+
+@import url(/css/partials/_variables.css);
+
+/* Start nav styles*/
+
+.header-section .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 4rem;
+}
+
+.header-section .main-menu .navbar {
+    padding: 0 4rem;
+    box-shadow: var(--box-shadow);
+}
+
+.header-section .main-menu .nav-item .nav-link {
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    font-size: var(--caption);
+    line-height: var(--caption-line-height);
+    text-align: center;
+    padding: 1.7rem;
+    color: var(--color-3);
+}
+
+.header-section .main-menu .navbar-nav .active a {
+    color: var(--color-1);
+}
+
+.header-section .main-menu .navbar-nav a:hover {
+    color: var(--color-1);
+}
+
+
+/* End nav styles*/
+
+
+/* Start banner area */
+
+.site-main .site-banner .site-title h1 {
+    color: var(--color-2);
+    padding-top: 15%;
+}
+
+.site-main .site-banner .site-title span {
+    color: var(--color-1);
+    font-family: var(--montserrat);
+    font-weight: bolder;
+    font-size: var(--title);
+    line-height: var(--title-line-height);
+}
+
+.title-text {
+    font: normal normal normal 32px/48px var(--helvetica);
+}
+
+
+/* End banner area */

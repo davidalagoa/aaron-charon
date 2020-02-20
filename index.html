@@ -6,29 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aaron Charon</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="logos\ac-favicon.png" type="image/x-icon">
 </head>
 
 <body>
-    <div class="bg">
-        <header>
-            <div class="myNavbar">
-                <div class="container-fluid ">
-                    <div class="navbar-header">
-                        <a href="#"><img src="\logos\ac-typemark.png" style="width: 64px; height: auto;" alt=""></a>
+    <!-- Start Header section -->
+    <header class="header-section">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="/logos/ac-typemark.png" style="width: 72px; height: auto;" alt="logo"> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header section -->
+
+    <!-- Start Main Section -->
+    <main class="site-main">
+
+        <!-- Start banner area -->
+        <div class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 site-title">
+                        <h1 class="title-text">My name is David Alagoa, a UI/UX and Graphic Designer. This is my personal portfolio.<br><br>This is <span class="aaron-special">AARON CHARON.</span></h1>
                     </div>
-                    <div>
-                        <ul class="nav navbar-nav" id="navStuff">
-                            <li><a href="index.html"><span class="home"></span> HOME</a></li>
-                            <li><a href="#projects"><span class="projects"></span> PROJECTS</a></li>
-                            <li><a href="#about"><span class="about"></span> ABOUT</a></li>
-                        </ul>
+
+                    <div class="col-lg-8 col-md-12 site-title">
+                        <h1 class="title-text">Here are some projects I've worked on.</h1>
                     </div>
                 </div>
             </div>
-        </header>
-    </div>
+        </div>
+        <!-- End banner area -->
 
+        <!-- Start project previews -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 project-desc">
+                    <h5 class="project-name">WINSALVO</h5><br>
+                    <h5 class="project-type">UI/UX 💩 SiriusLabs</h5>
+                </div>
+
+                <div class="col-lg-6 col-md-12 project-img">
+                    <img src="/img/winsalvo.png" alt="winsalvo">
+                </div>
+
+                <div class="col-lg-6 col-md-12 project-desc">
+                    <h5 class="project-name">EU MIGRATION POLICY</h5><br>
+                    <h5 class="project-type">Illust. 💩 Freelance</h5>
+                </div>
+
+                <div class="col-lg-6 col-md-12 project-img">
+                    <img src="/img/de-correspondent/de-correspondent-1.png" style="width: 480px; height: auto;" alt="de-corres">
+                </div>
+
+                <div class="col-lg-6 col-md-12 project-desc">
+                    <h5 class="project-name">LIVE RIGHT</h5><br>
+                    <h5 class="project-type">Branding. 💩 Freelance</h5>
+                </div>
+
+                <div class="col-lg-6 col-md-12 project-img">
+                    <img src="/img/live-right/live-right-packaging.png" style="width: 480px; height: auto;" alt="de-corres">
+                </div>
+            </div>
+
+            <div class="button">
+                <button>VIEW MORE</button>
+            </div>
+        </div>
+        <!-- End project previews -->
+
+
+    </main>
+    <!-- Start End Section -->
+
+
+
+    <!-- Jquery File -->
+    <script src="/js/jquery-3.4.1.js"></script>
+    <!-- Bootstrap JS File -->
+    <script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>
