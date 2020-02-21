@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Montserrat Black";
-    src: './fonts/Montserrat/Montserrat-Black.ttf';
+    src: url('/fonts/Montserrat/Montserrat-Black.ttf');
 }
 
 @font-face {
     font-family: 'Helvetica Light';
-    src: './fonts/helvetica-light.ttf';
+    src: url('/fonts/helvetica-light.ttf');
 }
