@@ -4,6 +4,10 @@
 
 @import url(/css/partials/_variables.css);
 
+/* Global */
+
+@import url(/css/partials/global.css);
+
 /* Start nav styles*/
 
 .header-section .main-menu .navbar .navbar-brand {

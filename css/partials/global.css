@@ -3,3 +3,7 @@
 .title-text {
     font: normal normal normal 32px/48px var(--helvetica);
 }
+
+.text-uppercase {
+    text-transform: uppercase;
+}
