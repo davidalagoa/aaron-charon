@@ -61,5 +61,33 @@
     font: normal normal normal 32px/48px var(--open-sans);
 }
 
+.project-name {
+    font: normal normal normal 18px/24px var(--montserrat);
+}
+
+.project-type {
+    padding-right: 8px;
+    color: var(--color-2);
+    font: normal normal normal 16px/18px var(--montserrat);
+}
+
+.dot-separator {
+    background-color: var(--color-2);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    transform: translateY(4px);
+}
+
+.project-category {
+    padding-left: 8px;
+    color: var(--color-2);
+    font: normal normal normal 16px/18px var(--montserrat);
+}
+
+.project-img {
+    transform: translateY(-64px);
+}
+
 
 /* End banner area */
