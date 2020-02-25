@@ -91,3 +91,20 @@
 
 
 /* End banner area */
+
+a.link {
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    font-size: var(--caption);
+    line-height: var(--caption-line-height);
+    text-align: center;
+    padding: 1.7rem;
+    color: var(--color-1);
+    text-decoration: none;
+}
+
+link a:hover {
+    color: var(--color-3);
+    border-bottom: 4px solid var(--color-3);
+    text-decoration: none;
+}
