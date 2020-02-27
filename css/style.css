@@ -130,13 +130,18 @@ a.link:hover {
     margin-bottom: 128px;
 }
 
+img.sm-icon {
+    width: 24px;
+    height: auto;
+}
+
 a.sm-link {
     font-family: var(--montserrat);
     text-transform: uppercase;
     font-size: var(--caption);
     line-height: var(--caption-line-height);
     text-align: center;
-    color: var(--color-2);
+    color: var(--color-1);
     text-decoration: none;
 }
 
