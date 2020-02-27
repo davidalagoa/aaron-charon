@@ -20,7 +20,7 @@ body {
     --box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.14);
     /* Font Family Variables */
     --montserrat: "Montserrat Black";
-    --helvetica: "Helvetica Light";
+    --open-sans: "Open Sans Light";
     /* Font sizes */
     --title: 32px;
     --title-line-height: 48px;

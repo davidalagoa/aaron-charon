@@ -1,5 +1,9 @@
 /* global */
 
 .title-text {
-    font: normal normal normal 32px/48px var(--helvetica);
+    font: normal normal normal 32px/48px var(--open-sans);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
 }
