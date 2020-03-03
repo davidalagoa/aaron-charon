@@ -71,6 +71,17 @@
     font: normal normal normal 32px/48px var(--open-sans);
 }
 
+.body-text {
+    font: normal normal normal 24px/36px var(--open-sans);
+    text-align: left;
+}
+
+.text-decor {
+    font: normal normal normal 24px/36px var(--open-sans);
+    text-decoration-line: line-through;
+    -moz-text-decoration-line: line-through;
+}
+
 .projects-preview {
     padding-top: 108px;
 }
