@@ -11,7 +11,7 @@
 /* Start nav styles*/
 
 .header-section .main-menu .navbar .navbar-brand {
-    padding: 0 2rem 0 4rem;
+    padding: 0 4rem 0 4rem;
 }
 
 .header-section .main-menu .navbar {
@@ -61,8 +61,18 @@
     font: normal normal normal var(--caption) var(--montserrat);
 }
 
+.page-title {
+    font: normal normal normal var(--title) var(--montserrat);
+    color: var(--color-1);
+    padding-top: 108px;
+}
+
 .title-text {
     font: normal normal normal 32px/48px var(--open-sans);
+}
+
+.projects-preview {
+    padding-top: 108px;
 }
 
 .project-name {
