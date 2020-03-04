@@ -165,3 +165,12 @@ a.sm-link:hover {
     border-bottom: 4px solid var(--color-3);
     text-decoration: none;
 }
+
+img.icon-style {
+    width: 128px;
+    height: 128px;
+}
+
+.about-text {
+    width: 60%;
+}
