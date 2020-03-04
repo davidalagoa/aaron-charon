@@ -174,3 +174,19 @@ img.icon-style {
 .about-text {
     width: 60%;
 }
+
+.skillset-icon {
+    width: 64px;
+    height: auto;
+}
+
+.skillset-special {
+    font: normal normal normal 18px/24px var(--montserrat);
+    color: var(--color-1);
+}
+
+a.skillset-special:hover {
+    color: var(--color-3);
+    border-bottom: 4px solid var(--color-3);
+    text-decoration: none;
+}
