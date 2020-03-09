@@ -64,7 +64,7 @@
 .page-title {
     font: normal normal normal var(--title) var(--montserrat);
     color: var(--color-1);
-    padding-top: 108px;
+    padding: 6.75rem 0 2rem 0;
 }
 
 .title-text {
@@ -85,11 +85,10 @@
 }
 
 .project-type {
-    width: 10%;
     padding-right: 8px;
     color: var(--color-2);
     font: normal normal normal 16px/18px var(--montserrat);
-    text-align: center;
+    text-align: left;
 }
 
 .dot-separator {
@@ -181,10 +180,36 @@ img.icon-style {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-top: 2rem;
+}
+
+.process-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.process-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .about-text {
     padding-left: 32px;
+}
+
+.process-text {
+    width: 60%;
+}
+
+.skillset-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .skillset-icon {
