@@ -113,21 +113,21 @@
 /* End banner area */
 
 .view-all {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 64x;
+    /* margin-bottom: 64px; */
 }
 
 a.link {
     font-family: var(--montserrat);
     text-transform: uppercase;
     font-size: var(--caption);
-    line-height: var(--caption-line-height);
+    /* line-height: var(--caption-line-height); */
     text-align: center;
-    color: var(--color-2);
+    color: var(--color-1);
     text-decoration: none;
 }
 
@@ -139,31 +139,39 @@ a.link:hover {
 
 .socials {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 32px;
-    margin-bottom: 128px;
+}
+
+.social-icons {
+    margin: 0 2rem 0 0;
 }
 
 img.sm-icon {
-    width: 24px;
+    width: 28px;
     height: auto;
 }
 
-a.sm-link {
+img.sm-icon:hover {
+    filter: opacity(45%);
+}
+
+
+/* a.sm-link {
     font-family: var(--montserrat);
     text-transform: uppercase;
     font-size: var(--caption);
-    line-height: var(--caption-line-height);
-    text-align: center;
-    color: var(--color-1);
-    text-decoration: none;
-}
+    /* line-height: var(--caption-line-height); */
 
-a.sm-link:hover {
+
+/* text-align: center;
+color: var(--color-1);
+text-decoration: none;
+
+}
+*/
+
+.sm-link:hover {
     color: var(--color-3);
-    border-bottom: 4px solid var(--color-3);
+    cursor: pointer;
     text-decoration: none;
 }
 
@@ -208,13 +216,21 @@ img.icon-style {
 .skillset-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .skillset-icon {
-    width: 64px;
-    height: auto;
+    width: auto;
+    height: 64px;
+}
+
+.skillset-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
 }
 
 .skillset-special {
@@ -231,4 +247,14 @@ a.skillset-special:hover {
 img.profile-img {
     border-radius: 8px;
     box-shadow: var(--box-shadow);
+}
+
+.footer-area {
+    width: 100%;
+    height: auto;
+    padding: 15rem 0 2rem 0;
+}
+
+.follow-me {
+    margin-bottom: 4rem;
 }
