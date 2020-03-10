@@ -1,3 +1,5 @@
+/* Fonts */
+
 @import url(/css/fonts.css);
 
 /* CSS Variables */
@@ -7,6 +9,9 @@
 /* Global */
 
 @import url(/css/partials/global.css);
+
+/* --------------------------------------------------------------------------------------- */
+
 
 /* Start nav styles*/
 
@@ -42,7 +47,10 @@
 /* End nav styles*/
 
 
-/* Start banner area */
+/* ----------------------------------------------------------------------------------------- */
+
+
+/* Text Styles */
 
 .site-main .site-banner .site-title h1 {
     color: var(--color-2);
@@ -76,10 +84,6 @@
     text-align: left;
 }
 
-.projects-preview {
-    padding-top: 108px;
-}
-
 .project-name {
     font: normal normal normal 18px/24px var(--montserrat);
 }
@@ -91,35 +95,8 @@
     text-align: left;
 }
 
-.dot-separator {
-    background-color: var(--color-2);
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    transform: translateY(4px);
-}
 
-.project-category {
-    padding-left: 8px;
-    color: var(--color-2);
-    font: normal normal normal 16px/18px var(--montserrat);
-}
-
-.project-img {
-    transform: translateY(-64px);
-}
-
-
-/* End banner area */
-
-.view-all {
-    /* width: 100%; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* margin-bottom: 64px; */
-}
+/* Link Styles */
 
 a.link {
     font-family: var(--montserrat);
@@ -137,6 +114,45 @@ a.link:hover {
     text-decoration: none;
 }
 
+.projects-preview {
+    padding-top: 108px;
+}
+
+.dot-separator {
+    background-color: var(--color-2);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    transform: translateY(4px);
+}
+
+.project-category {
+    padding-left: 8px;
+    color: var(--color-2);
+    font: normal normal normal 16px/18px var(--montserrat);
+}
+
+.skillset-special {
+    font: normal normal normal 18px/24px var(--montserrat);
+    color: var(--color-1);
+}
+
+
+/* Alignment Styles */
+
+.project-img {
+    transform: translateY(-64px);
+}
+
+.view-all {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 64px; */
+}
+
 .socials {
     width: 100%;
 }
@@ -152,27 +168,6 @@ img.sm-icon {
 
 img.sm-icon:hover {
     filter: opacity(45%);
-}
-
-
-/* a.sm-link {
-    font-family: var(--montserrat);
-    text-transform: uppercase;
-    font-size: var(--caption);
-    /* line-height: var(--caption-line-height); */
-
-
-/* text-align: center;
-color: var(--color-1);
-text-decoration: none;
-
-}
-*/
-
-.sm-link:hover {
-    color: var(--color-3);
-    cursor: pointer;
-    text-decoration: none;
 }
 
 img.icon-style {
@@ -231,11 +226,6 @@ img.icon-style {
     justify-content: center;
     align-items: center;
     width: 25%;
-}
-
-.skillset-special {
-    font: normal normal normal 18px/24px var(--montserrat);
-    color: var(--color-1);
 }
 
 a.skillset-special:hover {
