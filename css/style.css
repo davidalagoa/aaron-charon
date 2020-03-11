@@ -65,6 +65,14 @@
     line-height: var(--title-line-height);
 }
 
+.aaron-special {
+    color: var(--color-1);
+    font-family: var(--montserrat);
+    font-weight: bolder;
+    font-size: var(--body-text);
+    line-height: var(--body-line-height);
+}
+
 .title {
     font: normal normal normal var(--caption) var(--montserrat);
 }
@@ -102,10 +110,10 @@ a.link {
     font-family: var(--montserrat);
     text-transform: uppercase;
     font-size: var(--caption);
-    /* line-height: var(--caption-line-height); */
     text-align: center;
     color: var(--color-1);
     text-decoration: none;
+    margin-top: 64px;
 }
 
 a.link:hover {
@@ -140,17 +148,29 @@ a.link:hover {
 
 /* Alignment Styles */
 
+.project-section {
+    margin-top: 64px;
+}
+
 .project-img {
-    transform: translateY(-64px);
+    /* transform: translateY(-64px); */
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    filter: grayscale(100%);
+    transition: all .2s ease-in-out;
+}
+
+.project-img:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
 
 .view-all {
-    /* width: 100%; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 64px; */
 }
 
 .socials {
