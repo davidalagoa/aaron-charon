@@ -268,3 +268,32 @@ img.profile-img {
 .follow-me {
     margin-bottom: 4rem;
 }
+
+
+/* Individual Project Styles */
+
+.ind-project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box {
+    justify-content: center;
+    align-items: center;
+}
+
+img.img-showcase {
+    width: 640px;
+    height: auto;
+    box-shadow: var(--box-shadow);
+    border-radius: 8px;
+}
+
+.img-caption {
+    font: normal normal normal var(--caption) var(--montserrat);
+    color: var(--color-2);
+    text-align: center;
+    padding: 2rem 0 6rem 0
+}
