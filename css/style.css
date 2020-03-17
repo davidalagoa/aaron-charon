@@ -78,9 +78,15 @@
 }
 
 .page-title {
-    font: normal normal normal var(--title) var(--montserrat);
+    font: normal normal normal var(--body-text) var(--montserrat);
     color: var(--color-1);
-    padding: 6.75rem 0 2rem 0;
+    padding-top: 6.75rem;
+}
+
+.page-subtitle {
+    font: normal normal normal var(--body-text) var(--montserrat);
+    color: var(--color-1);
+    padding: 2rem 0 1rem 0;
 }
 
 .title-text {
@@ -103,23 +109,29 @@
     text-align: left;
 }
 
+.process-type {
+    color: var(--color-2);
+    font: normal normal normal 16px/18px var(--montserrat);
+    text-align: center;
+    width: 50%;
+}
+
 
 /* Link Styles */
 
 a.link {
-    font-family: var(--montserrat);
-    text-transform: uppercase;
-    font-size: var(--caption);
-    text-align: center;
+    font: normal bold normal var(--caption) var(--montserrat);
     color: var(--color-1);
     text-decoration: none;
     margin-top: 64px;
+    cursor: pointer;
 }
 
 a.link:hover {
     color: var(--color-3);
     border-bottom: 4px solid var(--color-3);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .projects-preview {
@@ -147,6 +159,10 @@ a.link:hover {
 
 
 /* Alignment Styles */
+
+.site-main {
+    padding-bottom: 15rem;
+}
 
 .project-section {
     margin-top: 64px;
@@ -224,6 +240,11 @@ img.icon-style {
     padding-left: 32px;
 }
 
+.about-subtext {
+    text-align: left;
+    padding: 1rem 0;
+}
+
 .process-text {
     width: 60%;
 }
@@ -233,6 +254,7 @@ img.icon-style {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .skillset-icon {
@@ -262,7 +284,7 @@ img.profile-img {
 .footer-area {
     width: 100%;
     height: auto;
-    padding: 15rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
 }
 
 .follow-me {
