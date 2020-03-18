@@ -15,153 +15,81 @@
 
     <!-- CSS File -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="logos\ac-favicon.png" type="image/x-icon">
 </head>
 
 <body>
-    <!-- Start Header section -->
-    <header class="header-section">
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="/index.html"><img src="/logos/ac-typemark.png" style="width: 72px; height: auto;" alt="logo"> </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about.html">About</a>
-                        </li>
-                    </ul>
+    <div class="container-fluid">
+        <!-- header row -->
+        <div class="row">
+            <header class="header-section">
+                <div class="main-menu">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="/index.html"><img src="/logos/ac-typemark.png"
+                                style="width: 72px; height: auto;" alt="logo"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <div class="mr-auto"></div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/index.html">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/projects.html">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/about.html">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </nav>
+            </header>
         </div>
-    </header>
-    <!-- End Header section -->
 
-    <!-- Start Main Section -->
-    <main class="site-main">
+        <!-- site banner row -->
+        <div class="row site-banner">
+            <div class="col-sm-12 col-md-6 offset-md-3 site-title">
+                <h1 class="title-text">My name is David Alagoa, a UI/UX and Graphic Designer. This is my personal
+                    portfolio.<br><br>This is <span class="aaron-special">AARON CHARON.</span></h1>
+            </div>
 
-        <!-- Start banner area -->
-        <div class="site-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-md-12 site-title">
-                        <h1 class="title-text">My name is David Alagoa, a UI/UX and Graphic Designer. This is my personal portfolio.<br><br>This is <span class="aaron-special">AARON CHARON.</span></h1>
-                    </div>
-
-                    <div class="col-lg-8 col-md-12 site-title">
-                        <h1 class="title-text">Here are some projects I've worked on.</h1>
-                    </div>
-                </div>
+            <div class="col-sm-12 col-md-6 offset-md-3 site-title">
+                <h1 class="title-text">Here are some projects I've worked on.</h1>
             </div>
         </div>
-        <!-- End banner area -->
 
-        <!-- Start project previews -->
+        <div class="row projects">
 
-        <div class="container">
-            <div class="d-flex flex-column projects-preview">
-
-                <div class="project-section">
-                    <div class="d-flex justify-content-start mt-5">
-                        <h5 class="project-name text-uppercase">WinSalvo</h5>
-                    </div>
-
-                    <div class="d-flex flex-row">
-                        <h6 class="project-type text-uppercase">ui/ux</h6>
-                        <div class="dot-separator"></div>
-                        <h6 class="project-category text-uppercase">siriuslabs</h6>
-                    </div>
-
-                    <div class="d-flex justify-content-end project-img">
-                        <a href="https://medium.com/siriuslabs/ui-ux-case-study-winsalvo-1d89112f8687" target="_blank" class="wrap text-decoration-none">
-                            <img src="/img/winsalvo.png" style="width: 640px; height: auto;" alt="WinSalvo">
-                        </a>
-                    </div>
+            <div class="projects-row col-sm-12 col-md-6 offset-md-3">
+                <div class="col-sm-12 col-md-5 project-info">
+                    <h5 class="project-name text-uppercase">WinSalvo</h5>
+                    <span class="project-type text-uppercase">illustration</span>
+                    <div class="dot-separator"></div>
+                    <span class="project-category text-uppercase">freelance</span>
                 </div>
-
-                <div class="project-section">
-                    <div class="d-flex justify-content-start mt-5">
-                        <h5 class="project-name text-uppercase">eu migration policy</h5>
-                    </div>
-
-                    <div class="d-flex flex-row">
-                        <h6 class="project-type text-uppercase">illustration</h6>
-                        <div class="dot-separator"></div>
-                        <h6 class="project-category text-uppercase">freelance</h6>
-                    </div>
-
-                    <div class="d-flex justify-content-end project-img">
-                        <img src="/img/de-correspondent/de-correspondent-1.png" style="width: 640px; height: auto;" alt="de-corres">
-                    </div>
+                <div class="col-sm-12 col-md-7 project-img">
+                    <a href="https://medium.com/siriuslabs/ui-ux-case-study-winsalvo-1d89112f8687" target="_blank"
+                        class="wrap text-decoration-none">
+                        <img src="/img/winsalvo.png" style="width: 640px; height: auto;" alt="WinSalvo">
+                    </a>
                 </div>
-
-                <div class="project-section">
-                    <div class="d-flex justify-content-start mt-5">
-                        <h5 class="project-name text-uppercase">live right</h5>
-                    </div>
-
-                    <div class="d-flex flex-row">
-                        <h6 class="project-type text-uppercase">branding</h6>
-                        <div class="dot-separator"></div>
-                        <h6 class="project-category text-uppercase">freelance</h6>
-                    </div>
-
-                    <div class="d-flex justify-content-end project-img">
-                        <img src="/img/live-right/live-right-intro.png" style="width: 640px; height: auto;" alt="live-right">
-                    </div>
-                </div>
-
             </div>
 
             <div class="d-flex justify-content-center mt-5 view-all">
                 <a href="#projects" class="link text-uppercase">view all</a>
             </div>
         </div>
-        <!-- End project previews -->
 
-
-    </main>
-    <!-- End Section -->
-
-    <!-- Start Footer -->
-    <footer class="footer-area mt-5">
-        <div class="container">
-            <div class="justify-content-start title">
-                <h5 class="title text-uppercase">follow me</h5>
-            </div>
-
-            <div class="socials text-uppercase mt-5">
-                <div class="d-flex flex-column justify-content-center align-items-center social-icons">
-                    <a href="https://www.behance.net/davidalagoa" class="sm-icon pb-2" target="_blank"><img src="/img/social-media/behance.png" class="sm-icon" alt="behance"></a>
-                    <a href="https://www.behance.net/davidalagoa" class="sm-link" target="_blank">behance</a>
-                </div>
-
-                <div class="d-flex flex-column justify-content-center align-items-center social-icons">
-                    <a href="https://medium.com/@davidalagoa" class="sm-icon pb-2" target="_blank"><img src="/img/social-media/medium.png" class="sm-icon" alt="medium"></a>
-                    <a href="https://medium.com/@davidalagoa" class="sm-link" target="_blank">medium</a>
-                </div>
-
-                <div class="d-flex flex-column justify-content-center align-items-center social-icons">
-                    <a href="https://twitter.com/ColorMeNoir" class="sm-icon pb-2" target="_blank"><img src="/img/social-media/twitter.png" class="sm-icon" alt="twitter"></a>
-                    <a href="https://twitter.com/ColorMeNoir" class="sm-link" target="_blank">twitter</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End Footer -->
-
-
+        <!-- end of container -->
+    </div>
 
     <!-- Jquery File -->
     <script src="/js/jquery-3.4.1.js"></script>
