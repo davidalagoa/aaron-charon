@@ -15,9 +15,14 @@
 
     <!-- CSS File -->
     <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="logos\ac-favicon.png" type="image/x-icon">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 
 <body>
@@ -25,7 +30,7 @@
     <header class="header-section">
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="/index.html"><img src="/logos/ac-typemark.png" style="width: 72px; height: auto;" alt="logo"> </a>
+                <a class="navbar-brand" href="/index.html"><img src="/logos/ac-typemark.png" style="width: 88px; height: auto;" alt="logo"> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -54,6 +59,7 @@
         <!-- Start banner area -->
         <div class="site-banner">
             <div class="container">
+                <a href="javascript:" id="back-to-top"><i class="icon-chevron-up"></i></a>
                 <div class="row">
                     <div class="col-lg-8 col-md-12 site-title">
                         <h1 class="title-text">My name is David Alagoa, a UI/UX and Graphic Designer. This is my personal portfolio.<br><br>This is <span class="aaron-special">AARON CHARON.</span></h1>
@@ -73,7 +79,7 @@
             <div class="d-flex flex-column projects-preview">
 
                 <div class="project-section">
-                    <div class="d-flex justify-content-start mt-5">
+                    <div class="d-flex justify-content-start">
                         <h5 class="project-name text-uppercase">WinSalvo</h5>
                     </div>
 
@@ -83,15 +89,15 @@
                         <h6 class="project-category text-uppercase">siriuslabs</h6>
                     </div>
 
-                    <div class="d-flex justify-content-end project-img">
+                    <div class="d-flex justify-content-end">
                         <a href="https://medium.com/siriuslabs/ui-ux-case-study-winsalvo-1d89112f8687" target="_blank" class="wrap text-decoration-none">
-                            <img src="/img/winsalvo.png" style="width: 640px; height: auto;" alt="WinSalvo">
+                            <img src="/img/winsalvo.png" class="project-img" style="width: 640px; height: auto;" alt="WinSalvo">
                         </a>
                     </div>
                 </div>
 
                 <div class="project-section">
-                    <div class="d-flex justify-content-start mt-5">
+                    <div class="d-flex justify-content-start">
                         <h5 class="project-name text-uppercase">eu migration policy</h5>
                     </div>
 
@@ -101,13 +107,15 @@
                         <h6 class="project-category text-uppercase">freelance</h6>
                     </div>
 
-                    <div class="d-flex justify-content-end project-img">
-                        <img src="/img/de-correspondent/de-correspondent-1.png" style="width: 640px; height: auto;" alt="de-corres">
+                    <div class="d-flex justify-content-end">
+                        <a href="/eu-migration.html" class="wrap text-decoration-none">
+                            <img src="/img/de-correspondent/de-correspondent-1.png" class="project-img" style="width: 640px; height: auto;" alt="de-corres">
+                        </a>
                     </div>
                 </div>
 
                 <div class="project-section">
-                    <div class="d-flex justify-content-start mt-5">
+                    <div class="d-flex justify-content-start">
                         <h5 class="project-name text-uppercase">live right</h5>
                     </div>
 
@@ -117,44 +125,42 @@
                         <h6 class="project-category text-uppercase">freelance</h6>
                     </div>
 
-                    <div class="d-flex justify-content-end project-img">
-                        <img src="/img/live-right/live-right-intro.png" style="width: 640px; height: auto;" alt="live-right">
+                    <div class="d-flex justify-content-end">
+                        <a href="/live-right.html" class="wrap text-decoration-none">
+                            <img src="/img/live-right/live-right-intro.png" class="project-img" style="width: 640px; height: auto;" alt="live-right">
+                        </a>
+                    </div>
+
+                    <div class="view-all">
+                        <a href="/projects.html" class="link text-uppercase">view all</a>
                     </div>
                 </div>
-
             </div>
 
-            <div class="d-flex justify-content-center mt-5 view-all">
-                <a href="#projects" class="link text-uppercase">view all</a>
-            </div>
+
         </div>
         <!-- End project previews -->
-
-
     </main>
     <!-- End Section -->
 
     <!-- Start Footer -->
-    <footer class="footer-area mt-5">
-        <div class="container">
-            <div class="justify-content-start title">
-                <h5 class="title text-uppercase">follow me</h5>
+    <footer class=" footer-area">
+        <div class="container ">
+            <div class="d-flex justify-content-start title">
+                <h5 class="title text-uppercase follow-me">follow me</h5>
             </div>
 
-            <div class="socials text-uppercase mt-5">
-                <div class="d-flex flex-column justify-content-center align-items-center social-icons">
-                    <a href="https://www.behance.net/davidalagoa" class="sm-icon pb-2" target="_blank"><img src="/img/social-media/behance.png" class="sm-icon" alt="behance"></a>
-                    <a href="https://www.behance.net/davidalagoa" class="sm-link" target="_blank">behance</a>
+            <div class="d-flex flex-row justify-content-start align-items-center socials text-uppercase">
+                <div class="social-icons">
+                    <a href="https://www.behance.net/davidalagoa " class="sm-link " target="_blank "><img src="/img/social-media/behance.png " class="sm-icon" alt="behance"></a>
                 </div>
 
-                <div class="d-flex flex-column justify-content-center align-items-center social-icons">
-                    <a href="https://medium.com/@davidalagoa" class="sm-icon pb-2" target="_blank"><img src="/img/social-media/medium.png" class="sm-icon" alt="medium"></a>
-                    <a href="https://medium.com/@davidalagoa" class="sm-link" target="_blank">medium</a>
+                <div class="social-icons">
+                    <a href="https://medium.com/@davidalagoa " class="sm-link " target="_blank "><img src="/img/social-media/medium.png " class="sm-icon" alt="medium"></a>
                 </div>
 
-                <div class="d-flex flex-column justify-content-center align-items-center social-icons">
-                    <a href="https://twitter.com/ColorMeNoir" class="sm-icon pb-2" target="_blank"><img src="/img/social-media/twitter.png" class="sm-icon" alt="twitter"></a>
-                    <a href="https://twitter.com/ColorMeNoir" class="sm-link" target="_blank">twitter</a>
+                <div class="social-icons">
+                    <a href="https://twitter.com/ColorMeNoir " class="sm-link " target="_blank "><img src="/img/social-media/twitter.png " class="sm-icon" alt="twitter"></a>
                 </div>
             </div>
         </div>
@@ -162,11 +168,12 @@
     <!-- End Footer -->
 
 
-
     <!-- Jquery File -->
     <script src="/js/jquery-3.4.1.js"></script>
     <!-- Bootstrap JS File -->
     <script src="/js/bootstrap.min.js"></script>
+    <!-- Main JS File -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

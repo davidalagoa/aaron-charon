@@ -1,3 +1,5 @@
+/* Fonts */
+
 @import url(/css/fonts.css);
 
 /* CSS Variables */
@@ -8,10 +10,13 @@
 
 @import url(/css/partials/global.css);
 
+/* --------------------------------------------------------------------------------------- */
+
+
 /* Start nav styles*/
 
 .header-section .main-menu .navbar .navbar-brand {
-    padding: 0 2rem 0 4rem;
+    padding: 0 4rem 0 4rem;
 }
 
 .header-section .main-menu .navbar {
@@ -42,7 +47,10 @@
 /* End nav styles*/
 
 
-/* Start banner area */
+/* ----------------------------------------------------------------------------------------- */
+
+
+/* Text Styles */
 
 .site-main .site-banner .site-title h1 {
     color: var(--color-2);
@@ -57,12 +65,37 @@
     line-height: var(--title-line-height);
 }
 
+.aaron-special {
+    color: var(--color-1);
+    font-family: var(--montserrat);
+    font-weight: bolder;
+    font-size: var(--body-text);
+    line-height: var(--body-line-height);
+}
+
 .title {
     font: normal normal normal var(--caption) var(--montserrat);
 }
 
+.page-title {
+    font: normal normal normal var(--body-text) var(--montserrat);
+    color: var(--color-1);
+    padding-top: 6.75rem;
+}
+
+.page-subtitle {
+    font: normal normal normal var(--body-text) var(--montserrat);
+    color: var(--color-1);
+    padding: 2rem 0 1rem 0;
+}
+
 .title-text {
     font: normal normal normal 32px/48px var(--open-sans);
+}
+
+.body-text {
+    font: normal normal normal 24px/36px var(--open-sans);
+    text-align: left;
 }
 
 .project-name {
@@ -73,6 +106,36 @@
     padding-right: 8px;
     color: var(--color-2);
     font: normal normal normal 16px/18px var(--montserrat);
+    text-align: left;
+}
+
+.process-type {
+    color: var(--color-2);
+    font: normal normal normal 16px/18px var(--montserrat);
+    text-align: center;
+    width: 50%;
+}
+
+
+/* Link Styles */
+
+a.link {
+    font: normal bold normal var(--caption) var(--montserrat);
+    color: var(--color-1);
+    text-decoration: none;
+    margin-top: 64px;
+    cursor: pointer;
+}
+
+a.link:hover {
+    color: var(--color-3);
+    border-bottom: 4px solid var(--color-3);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.projects-preview {
+    padding-top: 108px;
 }
 
 .dot-separator {
@@ -89,64 +152,209 @@
     font: normal normal normal 16px/18px var(--montserrat);
 }
 
-.project-img {
-    transform: translateY(-64px);
+.skillset-special {
+    font: normal normal normal 18px/24px var(--montserrat);
+    color: var(--color-1);
 }
 
 
-/* End banner area */
+/* Alignment Styles */
+
+.site-main {
+    padding-bottom: 15rem;
+}
+
+.project-section {
+    margin-top: 64px;
+}
+
+.project-img {
+    /* transform: translateY(-64px); */
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    filter: grayscale(100%);
+    transition: all .2s ease-in-out;
+}
+
+.project-img:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
 
 .view-all {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 64x;
-}
-
-a.link {
-    font-family: var(--montserrat);
-    text-transform: uppercase;
-    font-size: var(--caption);
-    line-height: var(--caption-line-height);
-    text-align: center;
-    color: var(--color-2);
-    text-decoration: none;
-}
-
-a.link:hover {
-    color: var(--color-3);
-    border-bottom: 4px solid var(--color-3);
-    text-decoration: none;
 }
 
 .socials {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 32px;
-    margin-bottom: 128px;
+}
+
+.social-icons {
+    margin: 0 2rem 0 0;
 }
 
 img.sm-icon {
-    width: 24px;
+    width: 28px;
     height: auto;
 }
 
-a.sm-link {
-    font-family: var(--montserrat);
-    text-transform: uppercase;
-    font-size: var(--caption);
-    line-height: var(--caption-line-height);
-    text-align: center;
-    color: var(--color-1);
-    text-decoration: none;
+img.sm-icon:hover {
+    filter: opacity(45%);
 }
 
-a.sm-link:hover {
+img.icon-style {
+    width: 128px;
+    height: 128px;
+}
+
+
+/* About Page Styles */
+
+.about-intro-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.process-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.process-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-text {
+    padding-left: 32px;
+}
+
+.about-subtext {
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.process-text {
+    width: 60%;
+}
+
+.skillset-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.skillset-icon {
+    width: auto;
+    height: 64px;
+}
+
+.skillset-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+a.skillset-special:hover {
     color: var(--color-3);
     border-bottom: 4px solid var(--color-3);
     text-decoration: none;
+}
+
+img.profile-img {
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+}
+
+.footer-area {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0 2rem 0;
+}
+
+.follow-me {
+    margin-bottom: 4rem;
+}
+
+
+/* Individual Project Styles */
+
+.ind-project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box {
+    justify-content: center;
+    align-items: center;
+}
+
+img.img-showcase {
+    width: 640px;
+    height: auto;
+    box-shadow: var(--box-shadow);
+    border-radius: 8px;
+}
+
+.img-caption {
+    font: normal normal normal var(--caption) var(--montserrat);
+    color: var(--color-2);
+    text-align: center;
+    padding: 2rem 0 6rem 0
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: transparent;
+    padding: 4rem;
+    display: block;
+    text-decoration: none;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#back-to-top i {
+    color: var(--color-1);
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 32px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#back-to-top:hover {
+    background: transparent;
+}
+
+#back-to-top:hover i {
+    color: var(--color-3);
+    top: 5px;
 }
