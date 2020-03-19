@@ -1,11 +1,27 @@
-@media only screen and (max-width : 1200px) {}
+@media only screen and (max-width: 1200px) {}
+
 
 /* Medium Devices, Desktops 
 CURRENT MOBILE BREAKPOINT */
-@media only screen and (max-width : 992px) {}
+
+@media only screen and (max-width: 992px) {}
+
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {}
+
+@media only screen and (max-width: 768px) {}
+
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {}
+
+@media only screen and (max-width: 480px) {
+    .header-section .main-menu .navbar,
+    .header-section .main-menu .navbar .navbar-brand,
+    .site-main .site-banner {
+        padding: 2%;
+        margin: 0;
+    }
+    .site-main .site-banner .site-title h1 {
+        font: normal normal normal var(--mobile-title-text)/var(--mobile-title-line-height) var(--open-sans);
+    }
+}
