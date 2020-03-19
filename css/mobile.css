@@ -22,6 +22,6 @@ CURRENT MOBILE BREAKPOINT */
         margin: 0;
     }
     .site-main .site-banner .site-title h1 {
-        font: normal normal normal var(--mobile-title-text)/var(--mobile-title-line-height) var(--open-sans);
+        font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
     }
 }
