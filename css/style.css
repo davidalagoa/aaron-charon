@@ -169,7 +169,9 @@ a.link:hover {
 }
 
 .project-img {
-    /* transform: translateY(-64px); */
+    width: 640px;
+    height: 320px;
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     filter: grayscale(100%);

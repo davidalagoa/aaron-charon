@@ -1,33 +1,36 @@
     @media only screen and (max-width: 1200px) {}
-
-
-/* Medium Devices, Desktops 
+    /* Medium Devices, Desktops 
 CURRENT MOBILE BREAKPOINT */
-
-@media only screen and (max-width: 992px) {}
-
-
-/* Small Devices, Tablets */
-
-@media only screen and (max-width: 768px) {}
-
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (max-width: 480px) {
-    .header-section .main-menu .navbar,
-    .header-section .main-menu .navbar .navbar-brand,
-    .site-main .site-banner {
-        padding: 2%;
-        margin: 0;
-    }
-    .site-main .site-banner .site-title h1 {
-        font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
-    }
-    .site-main .site-banner .site-title span {
-        color: var(--color-1);
-        font-family: var(--montserrat);
-        font-weight: bolder;
-        font-size: var(--mobile-title);
-        line-height: var(--mobile-title-line-height);
+    
+    @media only screen and (max-width: 992px) {}
+    /* Small Devices, Tablets */
+    
+    @media only screen and (max-width: 768px) {}
+    /* Extra Small Devices, Phones */
+    
+    @media only screen and (max-width: 375px) {
+        .header-section .main-menu .navbar,
+        .header-section .main-menu .navbar .navbar-brand,
+        .site-main .site-banner {
+            padding: 2%;
+            margin: 0;
+        }
+        .site-main .site-banner .site-title h1 {
+            font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
+        }
+        .site-main .site-banner .site-title span {
+            color: var(--color-1);
+            font-family: var(--montserrat);
+            font-weight: bolder;
+            font-size: var(--mobile-title);
+            line-height: var(--mobile-title-line-height);
+        }
+        .project-img,
+        .project-img:hover {
+            width: 480px;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: var(--box-shadow);
+        }
     }
