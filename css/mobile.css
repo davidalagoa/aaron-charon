@@ -32,5 +32,6 @@ CURRENT MOBILE BREAKPOINT */
             object-fit: cover;
             border-radius: 10px;
             box-shadow: var(--box-shadow);
+            filter: none;
         }
     }
