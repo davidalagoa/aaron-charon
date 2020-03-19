@@ -68,7 +68,7 @@
 .aaron-special {
     color: var(--color-1);
     font-family: var(--montserrat);
-    font-weight: bolder;
+    font-weight: bold;
     font-size: var(--body-text);
     line-height: var(--body-line-height);
 }

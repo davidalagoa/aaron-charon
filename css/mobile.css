@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px) {}
+    @media only screen and (max-width: 1200px) {}
 
 
 /* Medium Devices, Desktops 
@@ -24,4 +24,10 @@ CURRENT MOBILE BREAKPOINT */
     .site-main .site-banner .site-title h1 {
         font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
     }
-}
+    .site-main .site-banner .site-title span {
+        color: var(--color-1);
+        font-family: var(--montserrat);
+        font-weight: bolder;
+        font-size: var(--mobile-title);
+        line-height: var(--mobile-title-line-height);
+    }
