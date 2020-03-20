@@ -226,6 +226,7 @@ img.icon-style {
 /* About Page Styles */
 
 .about-intro-box {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
