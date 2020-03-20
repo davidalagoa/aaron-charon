@@ -41,6 +41,10 @@ CURRENT MOBILE BREAKPOINT */
                 .title-text {
                     font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
                 }
+                .aaron-special {
+                    font-size: var(--mobile-body-text);
+                    line-height: var(--mobile-body-line-height);
+                }
                 .footer-area {
                     padding: 4rem 4%;
                     margin: 0;
