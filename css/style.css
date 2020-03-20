@@ -278,6 +278,13 @@ a.skillset-special:hover {
     text-decoration: none;
 }
 
+.other-skillset {
+    display: flex;
+    justify-content: start;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
 img.profile-img {
     border-radius: 8px;
     box-shadow: var(--box-shadow);

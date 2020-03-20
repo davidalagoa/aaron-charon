@@ -57,4 +57,65 @@ CURRENT MOBILE BREAKPOINT */
             margin-top: 64px;
             cursor: pointer;
         }
+        img.profile-img {
+            width: 360px;
+            height: auto;
+        }
+        .about-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .about-intro-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 2rem;
+        }
+        .about-text {
+            margin-top: 2rem;
+            padding: 4%;
+        }
+        .process-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 4%;
+        }
+        .process-text {
+            width: 100%;
+        }
+        .body-text {
+            font: normal normal normal 24px/36px var(--open-sans);
+            text-align: center;
+        }
+        .skillset-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 4%;
+        }
+        .skillset-title-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            padding-bottom: 3rem;
+        }
+        .process-type {
+            color: var(--color-2);
+            font: normal normal normal 16px/18px var(--montserrat);
+            text-align: center;
+            width: 100%;
+        }
+        .other-skillset {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: 4%;
+        }
     }
