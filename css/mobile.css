@@ -1,121 +1,136 @@
-    @media only screen and (max-width: 1200px) {}
-    /* Medium Devices, Desktops 
+        @media only screen and (max-width: 1200px) {}
+        /* Medium Devices, Desktops 
 CURRENT MOBILE BREAKPOINT */
-    
-    @media only screen and (max-width: 992px) {}
-    /* Small Devices, Tablets */
-    
-    @media only screen and (max-width: 768px) {}
-    /* Extra Small Devices, Phones */
-    
-    @media only screen and (max-width: 480px) {
-        .header-section .main-menu .navbar,
-        .header-section .main-menu .navbar .navbar-brand,
-        .site-main .site-banner {
-            padding: 4%;
-            margin: 0;
+        
+        @media only screen and (max-width: 992px) {}
+        /* Small Devices, Tablets */
+        
+        @media only screen and (max-width: 768px) {}
+        /* Extra Small Devices, Phones */
+        
+        @media only screen and (max-width: 480px) {
+            .header-section .main-menu .navbar,
+            .header-section .main-menu .navbar .navbar-brand,
+            .site-main .site-banner {
+                padding: 4%;
+                margin: 0;
+            }
+            .project-section {
+                padding: 2rem 4%;
+                margin: 0;
+            }
+            .site-main .site-banner .site-title h1 {
+                font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
+            }
+            .site-main .site-banner .site-title span {
+                color: var(--color-1);
+                font-family: var(--montserrat);
+                font-weight: bolder;
+                font-size: var(--mobile-title);
+                line-height: var(--mobile-title-line-height);
+            }
+            .page-title {
+                font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--montserrat);
+                color: var(--color-1);
+                padding-top: 4rem;
+            }
+            .title-text {
+                font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
+            }
+            .footer-area {
+                padding: 4%;
+                margin: 0;
+            }
+            .project-name {
+                font: normal normal normal 16px var(--montserrat);
+            }
+            .project-type {
+                font: normal normal normal 16px/18px var(--montserrat);
+            }
+            .project-img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+                box-shadow: var(--box-shadow);
+                filter: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            a.link {
+                font: normal bold normal var(--mobile-body-text)/var(--mobile-body-line-height) var(--montserrat);
+                color: var(--color-1);
+                text-decoration: none;
+                margin-top: 64px;
+                cursor: pointer;
+            }
+            img.profile-img {
+                width: 360px;
+                height: auto;
+            }
+            .about-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .about-intro-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top: 2rem;
+            }
+            .about-text {
+                margin-top: 2rem;
+                padding: 4%;
+            }
+            .process-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 4%;
+            }
+            .process-text {
+                width: 100%;
+            }
+            .body-text {
+                font: normal normal normal 24px/36px var(--open-sans);
+                text-align: center;
+            }
+            .skillset-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 4%;
+            }
+            .skillset-title-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 80%;
+                padding-bottom: 3rem;
+            }
+            .process-type {
+                color: var(--color-2);
+                font: normal normal normal 16px/18px var(--montserrat);
+                text-align: center;
+                width: 100%;
+            }
+            .other-skillset {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin: 4%;
+            }
+            #back-to-top {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                background: transparent;
+                padding: 2rem;
+                display: block;
+            }
         }
-        .project-section {
-            padding: 4%;
-            margin: 0;
-        }
-        .site-main .site-banner .site-title h1 {
-            font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
-        }
-        .site-main .site-banner .site-title span {
-            color: var(--color-1);
-            font-family: var(--montserrat);
-            font-weight: bolder;
-            font-size: var(--mobile-title);
-            line-height: var(--mobile-title-line-height);
-        }
-        .footer-area {
-            padding: 4%;
-            margin: 0;
-        }
-        .project-name {
-            font: normal normal normal 16px var(--montserrat);
-        }
-        .project-type {
-            font: normal normal normal 16px/18px var(--montserrat);
-        }
-        .project-img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-            border-radius: 10px;
-            box-shadow: var(--box-shadow);
-            filter: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        a.link {
-            font: normal bold normal var(--mobile-body-text)/var(--mobile-body-line-height) var(--montserrat);
-            color: var(--color-1);
-            text-decoration: none;
-            margin-top: 64px;
-            cursor: pointer;
-        }
-        img.profile-img {
-            width: 360px;
-            height: auto;
-        }
-        .about-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .about-intro-box {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding-top: 2rem;
-        }
-        .about-text {
-            margin-top: 2rem;
-            padding: 4%;
-        }
-        .process-box {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 4%;
-        }
-        .process-text {
-            width: 100%;
-        }
-        .body-text {
-            font: normal normal normal 24px/36px var(--open-sans);
-            text-align: center;
-        }
-        .skillset-box {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 4%;
-        }
-        .skillset-title-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 80%;
-            padding-bottom: 3rem;
-        }
-        .process-type {
-            color: var(--color-2);
-            font: normal normal normal 16px/18px var(--montserrat);
-            text-align: center;
-            width: 100%;
-        }
-        .other-skillset {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            margin: 4%;
-        }
-    }
