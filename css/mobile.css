@@ -12,7 +12,11 @@ CURRENT MOBILE BREAKPOINT */
         .header-section .main-menu .navbar,
         .header-section .main-menu .navbar .navbar-brand,
         .site-main .site-banner {
-            padding: 2%;
+            padding: 4%;
+            margin: 0;
+        }
+        .project-section {
+            padding: 4%;
             margin: 0;
         }
         .site-main .site-banner .site-title h1 {
@@ -25,6 +29,16 @@ CURRENT MOBILE BREAKPOINT */
             font-size: var(--mobile-title);
             line-height: var(--mobile-title-line-height);
         }
+        .footer-area {
+            padding: 4%;
+            margin: 0;
+        }
+        .project-name {
+            font: normal normal normal 16px var(--montserrat);
+        }
+        .project-type {
+            font: normal normal normal 16px/18px var(--montserrat);
+        }
         .project-img {
             width: 100%;
             height: auto;
@@ -35,5 +49,12 @@ CURRENT MOBILE BREAKPOINT */
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        a.link {
+            font: normal bold normal var(--mobile-body-text)/var(--mobile-body-line-height) var(--montserrat);
+            color: var(--color-1);
+            text-decoration: none;
+            margin-top: 64px;
+            cursor: pointer;
         }
     }
