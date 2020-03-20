@@ -198,6 +198,10 @@ a.link:hover {
 
 .socials {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-icons {
@@ -299,6 +303,11 @@ img.profile-img {
     width: 100%;
     height: auto;
     padding: 2rem 0 2rem 0;
+}
+
+.footer-heading {
+    display: flex;
+    justify-content: start;
 }
 
 .follow-me {
