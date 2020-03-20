@@ -43,6 +43,11 @@
     color: var(--color-1);
 }
 
+.aaron-charon-logo {
+    width: 80px;
+    height: auto;
+}
+
 
 /* End nav styles*/
 
@@ -68,7 +73,7 @@
 .aaron-special {
     color: var(--color-1);
     font-family: var(--montserrat);
-    font-weight: bolder;
+    font-weight: bold;
     font-size: var(--body-text);
     line-height: var(--body-line-height);
 }
@@ -169,7 +174,9 @@ a.link:hover {
 }
 
 .project-img {
-    /* transform: translateY(-64px); */
+    width: 640px;
+    height: 320px;
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     filter: grayscale(100%);
@@ -191,6 +198,10 @@ a.link:hover {
 
 .socials {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
 }
 
 .social-icons {
@@ -215,6 +226,7 @@ img.icon-style {
 /* About Page Styles */
 
 .about-intro-box {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -276,6 +288,13 @@ a.skillset-special:hover {
     text-decoration: none;
 }
 
+.other-skillset {
+    display: flex;
+    justify-content: start;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
 img.profile-img {
     border-radius: 8px;
     box-shadow: var(--box-shadow);
@@ -285,6 +304,11 @@ img.profile-img {
     width: 100%;
     height: auto;
     padding: 2rem 0 2rem 0;
+}
+
+.footer-heading {
+    display: flex;
+    justify-content: start;
 }
 
 .follow-me {

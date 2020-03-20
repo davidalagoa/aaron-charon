@@ -1,0 +1,331 @@
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .header-section .main-menu .navbar,
+    .header-section .main-menu .navbar .navbar-brand,
+    .site-main .site-banner {
+        padding: 4%;
+        margin: 0;
+    }
+    .project-section {
+        padding: 2rem 4%;
+        margin: 0;
+    }
+    .site-main .site-banner .site-title h1 {
+        font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
+    }
+    .site-main .site-banner .site-title span {
+        color: var(--color-1);
+        font-family: var(--montserrat);
+        font-weight: bolder;
+        font-size: var(--mobile-title);
+        line-height: var(--mobile-title-line-height);
+    }
+    .page-title {
+        font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--montserrat);
+        color: var(--color-1);
+        padding-top: 4rem;
+    }
+    .about-subtext {
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .title-text {
+        font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
+    }
+    .aaron-special {
+        font-size: var(--mobile-body-text);
+        line-height: var(--mobile-body-line-height);
+    }
+    .footer-area {
+        padding: 4rem 4%;
+        margin: 0;
+    }
+    .footer-heading {
+        display: flex;
+        justify-content: center;
+    }
+    .socials {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icons {
+        margin: 0 2rem;
+    }
+    .follow-me {
+        margin-bottom: 2rem;
+    }
+    .project-name {
+        font: normal normal normal 16px var(--montserrat);
+    }
+    .project-type {
+        font: normal normal normal 16px/18px var(--montserrat);
+    }
+    .project-img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+        filter: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img.img-showcase {
+        width: 320px;
+        height: auto;
+    }
+    .img-caption {
+        font: normal normal normal var(--mobile-caption) var(--montserrat);
+        color: var(--color-2);
+        text-align: center;
+        padding: 2rem 0;
+    }
+    a.link {
+        font: normal bold normal var(--mobile-body-text)/var(--mobile-body-line-height) var(--montserrat);
+        color: var(--color-1);
+        text-decoration: none;
+        margin-top: 64px;
+        cursor: pointer;
+    }
+    img.profile-img {
+        width: 320px;
+        height: auto;
+    }
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-intro-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .about-text {
+        margin-top: 2rem;
+        padding: 4%;
+    }
+    .process-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4%;
+    }
+    .process-text {
+        width: 100%;
+    }
+    .body-text {
+        font: normal normal normal 24px/36px var(--open-sans);
+        text-align: center;
+    }
+    .skillset-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4%;
+    }
+    .skillset-title-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding-bottom: 3rem;
+    }
+    .process-type {
+        color: var(--color-2);
+        font: normal normal normal 16px/18px var(--montserrat);
+        text-align: center;
+        width: 100%;
+    }
+    .other-skillset {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 4%;
+    }
+    #back-to-top {
+        position: fixed;
+        bottom: 8px;
+        right: 8px;
+        background: transparent;
+        padding: 2rem;
+    }
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .header-section .main-menu .navbar,
+    .header-section .main-menu .navbar .navbar-brand,
+    .site-main .site-banner {
+        padding: 4%;
+        margin: 0;
+    }
+    .project-section {
+        padding: 2rem 4%;
+        margin: 0;
+    }
+    .site-main .site-banner .site-title h1 {
+        font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
+    }
+    .site-main .site-banner .site-title span {
+        color: var(--color-1);
+        font-family: var(--montserrat);
+        font-weight: bolder;
+        font-size: var(--mobile-title);
+        line-height: var(--mobile-title-line-height);
+    }
+    .page-title {
+        font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--montserrat);
+        color: var(--color-1);
+        padding-top: 4rem;
+    }
+    .about-subtext {
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .title-text {
+        font: normal normal normal var(--mobile-title)/var(--mobile-title-line-height) var(--open-sans);
+    }
+    .aaron-special {
+        font-size: var(--mobile-body-text);
+        line-height: var(--mobile-body-line-height);
+    }
+    .footer-area {
+        padding: 4rem 4%;
+        margin: 0;
+    }
+    .footer-heading {
+        display: flex;
+        justify-content: center;
+    }
+    .socials {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icons {
+        margin: 0 2rem;
+    }
+    .follow-me {
+        margin-bottom: 2rem;
+    }
+    .project-name {
+        font: normal normal normal 16px var(--montserrat);
+    }
+    .project-type {
+        font: normal normal normal 16px/18px var(--montserrat);
+    }
+    .project-img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+        filter: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img.img-showcase {
+        width: 320px;
+        height: auto;
+    }
+    .img-caption {
+        font: normal normal normal var(--mobile-caption) var(--montserrat);
+        color: var(--color-2);
+        text-align: center;
+        padding: 2rem 0;
+    }
+    a.link {
+        font: normal bold normal var(--mobile-body-text)/var(--mobile-body-line-height) var(--montserrat);
+        color: var(--color-1);
+        text-decoration: none;
+        margin-top: 64px;
+        cursor: pointer;
+    }
+    img.profile-img {
+        width: 320px;
+        height: auto;
+    }
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-intro-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .about-text {
+        margin-top: 2rem;
+        padding: 4%;
+    }
+    .process-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4%;
+    }
+    .process-text {
+        width: 100%;
+    }
+    .body-text {
+        font: normal normal normal 24px/36px var(--open-sans);
+        text-align: center;
+    }
+    .skillset-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4%;
+    }
+    .skillset-title-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding-bottom: 3rem;
+    }
+    .process-type {
+        color: var(--color-2);
+        font: normal normal normal 16px/18px var(--montserrat);
+        text-align: center;
+        width: 100%;
+    }
+    .other-skillset {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 4%;
+    }
+    #back-to-top {
+        position: fixed;
+        bottom: 8px;
+        right: 8px;
+        background: transparent;
+        padding: 2rem;
+    }
+}

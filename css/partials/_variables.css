@@ -26,4 +26,11 @@ body {
     --body-line-height: 32px;
     --caption: 18px;
     --caption-line-height: 24px;
+    /* Mobile Font Sizes */
+    --mobile-title: 24px;
+    --mobile-title-line-height: 36px;
+    --mobile-body-text: 18px;
+    --mobile-body-line-height: 24px;
+    --mobile-caption: 12px;
+    --mobile-caption-line-height: 18px;
 }
