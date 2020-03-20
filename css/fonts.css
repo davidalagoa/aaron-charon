@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Montserrat Black";
-    src: url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+    src: url('/fonts/Montserrat/Montserrat-Black.ttf');
 }
 
 @font-face {
     font-family: 'Open Sans Light';
-    src: url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+    src: url('/fonts/Open_Sans/OpenSans-Light.ttf');
 }
