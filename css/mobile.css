@@ -127,10 +127,9 @@ CURRENT MOBILE BREAKPOINT */
             }
             #back-to-top {
                 position: fixed;
-                bottom: 10px;
-                right: 10px;
+                bottom: 8px;
+                right: 8px;
                 background: transparent;
                 padding: 2rem;
-                display: block;
             }
         }
