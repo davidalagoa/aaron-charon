@@ -26,21 +26,42 @@ li,
 a {
     font-family: var(--montserrat);
     text-transform: uppercase;
+    font-size: var(--caption);
+    line-height: var(--caption-line-height);
+    text-align: center;
     color: var(--color-3);
     text-decoration: none;
 }
 
 header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: var(--box-shadow);
 }
 
 .aaron-charon-logo {
-    width: 80px;
+    width: 64px;
     height: auto;
     cursor: pointer;
+}
+
+.navbar-brand {
+    padding: 0 32px;
 }
 
 .nav-link {
@@ -49,11 +70,15 @@ header {
 
 .nav-link li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 32px;
 }
 
 .nav-link li a:hover {
-    transition: all 0.25s ease;
+    transition: all 0.25s ease 0s;
+    color: var(--color-1);
+}
+
+.nav-link li .active {
     color: var(--color-1);
 }
 
