@@ -83,37 +83,6 @@ header {
 }
 
 
-/* .navbar-container {
-    display: flex;
-    padding: 0 64px;
-    box-shadow: var(--box-shadow);
-    background-color: #ffffff;
-}
-
-.navbar-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-link {
-    font-family: var(--montserrat);
-    text-transform: uppercase;
-    font-size: var(--caption);
-    line-height: var(--caption-line-height);
-    text-align: center;
-}
-
-.header-section .main-menu .navbar-nav .active a {
-    color: var(--color-1);
-}
-
-.header-section .main-menu .navbar-nav a:hover {
-    color: var(--color-1);
-} */
-
-
 /* End nav styles*/
 
 
