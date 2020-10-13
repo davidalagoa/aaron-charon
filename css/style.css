@@ -203,6 +203,14 @@ a.link:hover {
     padding-bottom: 15rem;
 }
 
+.site-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
 .project-section {
     margin-top: 64px;
 }
